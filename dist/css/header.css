@@ -44,5 +44,6 @@ header {
 
 .header-links p:hover {
   color: blue;
+  cursor: pointer;
 }
 /*# sourceMappingURL=header.css.map */
