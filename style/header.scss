@@ -1,0 +1,26 @@
+@import "./variables";
+@import './mixin.scss';
+
+
+header{
+    @include flexCenter(row);
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-links{
+    @include flexCenter(row);
+    justify-content: space-around;
+    width: 50%;
+    p{
+    @include flexCenter(row);
+     justify-content: center;
+     align-items: center;
+     width: 200px;
+     &:hover{
+        color:$secondary-color;
+        cursor: pointer;
+    }
+    }
+    
+}

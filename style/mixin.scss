@@ -1,0 +1,8 @@
+@mixin flexCenter($direction){
+    display:flex;
+    flex-direction: $direction;
+}
+
+@mixin borderBox(){
+    border: 1px solid red;
+}

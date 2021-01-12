@@ -1,3 +1,7 @@
 # trombones
 
-SASS project
+
+Landing page created with Sass
+
+
+
